@@ -20,6 +20,7 @@ def first_name():
     # TODO: Return your first name
     # TODO: (Optional) If you want to get extra score then only achieve these tasks with one line of code!
     return "Benedek"
+
 def last_name():
     """Return the last name of the gator."""
     # TODO: Store your last name in a variable named `last_name`
