@@ -1,8 +1,4 @@
 """First coding challange."""
-#from pyconsole import Console
-
-
-#console = Console()
 
 """
 --------------------------
@@ -19,13 +15,14 @@ def first_name():
     # TODO: Store your first name in a variable named `first_name`
     # TODO: Return your first name
     # TODO: (Optional) If you want to get extra score then only achieve these tasks with one line of code!
-    return "Benedek"
+    return "FirstName"
 
 def last_name():
     """Return the last name of the gator."""
     # TODO: Store your last name in a variable named `last_name`
     # TODO: Return your first name
     # TODO: (Optional) If you want to get extra score then only achieve these tasks with one line of code!
+    return "LastName"
 
 def attach_names():
     """Return the full name of the gator."""
@@ -34,9 +31,12 @@ def attach_names():
     # TODO: Attach the two variables and store them in a variable called `full_name`
     # TODO: (Optional) If you want to get extra score then skip TODO 3 and just return
     # the full name using the return statement
+    FirstName = first_name()
+    LastName = last_name()
 
+    return FirstName, LastName
 
 if __name__ == "__main__":
     full_name = attach_names()
     print(full_name)
-
+    print(len(full_name))
